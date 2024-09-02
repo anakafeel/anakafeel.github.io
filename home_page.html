@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saim's Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Questrial&display=swap" rel="stylesheet">
+<body>
+  <title>Saim's portfolio</title>
+  </head>
+  <body>
+  <header>
+    <nav id ="desktop-nav">
+      <div class="left">Saim's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="left">Saim's Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id = "home">
+    <div class="leftbody">Hi , my name is <span class="red"> Saim</span>
+      <div>and im an aspiring</div>
+      <span id="element"></span>
+      <div class="btn">
+        <button>Download My Resume</button>
+      </div>
+    </div>
+    <div class="rightbody"><img src="memojifinal(1).png" alt=""></div>
+  </section>
+  <hr>
+  <section id="about">
+    <h4 class="small">Get to know more</h4>
+    <div class="big"><h1>About Me</h1>
+    </div>
+    <br>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="aboutmecirc.png"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img id="gdsc"
+              src="logo_dark_stacked_KzUurne.png"
+              alt="gdsc icon"
+              class="icon"
+            />
+            <h3>Community Engagement Assosciate</h3>
+            <p>2023-present<br />Carleton University</p>
+          </div>
+          <div class="details-container">
+            <img 
+              src="education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>B.Eng - Computer Systems Engineering<br />Second Year Standing<br />2021-2025 (expected)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-container">
+      <p>
+        Hello! I am a passionate Computer Systems Engineering student at Carleton University, where I earned a scholarship for my outstanding grades in grade 12. I am deeply fascinated by technology and computers, embodying a true techie spirit. Proficient in Python, C, and MySQL databases, I am expanding my skill set by delving into web development languages such as HTML, CSS, and JavaScript. Currently crafting my portfolio website, I embrace the opportunity to learn and apply new languages. My ability to quickly grasp concepts is complemented by my dedication to teamwork, as evidenced by my contributions to various team-based projects within my university coursework and through my involvement in the Google Developer Students Club (GDSC).
+      </p>
+    </div>
+    <br>
+    <br>
+    <hr>
+  </section>
+  <section id="projects">
+    <h4 class="small">Browse My Major</h4>
+    <h1>Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="project1.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Portfolio Website</h2>
+          <div class="btn-container">
+            <button
+              class="btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="project2.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Python Discord Bot</h2>
+          <div class="btn-container">
+            <button
+              class="btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="project3.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Amazon Clone</h2>
+          <div class="btn-container">
+            <button
+              class="btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div><h1 class="project-end">More Coming Soon!</h1></div>
+  </section>
+  <hr>
+  <section id="contact">
+    <p>Get in Touch</p>
+    <h1>Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="emailnew.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <a id="mail" href="mailto:hashmisaim037@gmail.com">hashmisaim037@gmail.com</a>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="linkedinnew.png"
+          alt="LinkedIn icon"
+          class="icon contact-icon"
+        />
+        <a id="linkedin" href="http://www.linkedin.com/in/saim-hashmi-2230b6243">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <img src="footerimg.png" alt="">
+  </div>
+  <div class="footer-text">
+    <h3>Saim's Portfolio</h3>
+    <h5>Copyright&#169;saimsportfolio.000.pe | All Rights Reserved</h5>
+    <ul class="foot-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</li>
+      <li><a href="#projects">Projects</li>
+      <li><a href="#contact">Contact Me</li>
+    </ul>
+  </div>  
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Computer Systems Engineer','Software Developer','Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
+</body>
+</html>
